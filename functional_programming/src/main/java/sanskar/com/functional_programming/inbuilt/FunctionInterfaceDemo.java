@@ -18,6 +18,6 @@ public class FunctionInterfaceDemo {
         System.out.println(subFunction.apply(5));
         System.out.println(randomSupplier.get());
 
-        System.out.println(CombineFunction.apply(80>));
+        System.out.println(CombineFunction.apply(80) );
     }
 }
