@@ -21,5 +21,7 @@ public class StreamDemo {
         Stream<String> filteredStream =
                 stream1.filter(name -> name.startsWith("b"));
         filteredStream.forEach(System.out::println);
+
+
     }
 }
