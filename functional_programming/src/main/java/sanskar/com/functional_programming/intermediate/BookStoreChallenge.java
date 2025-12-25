@@ -61,7 +61,7 @@ public class BookStoreChallenge {
         System.out.println();
         System.out.println("3.Generate a list of future book titles for next year\n" +
                 "   by appending the suffix \"(Coming Soon)\" to all existing titles.\n");
-        books.stream().map(book -> book.title + "(Comming Soon)" ).forEach(System.out::println);
+        books.stream().map(book -> book.title + " (Comming Soon)").forEach(System.out::println);
 
 //        4.
         System.out.println();
