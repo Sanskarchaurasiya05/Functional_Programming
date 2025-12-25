@@ -33,6 +33,7 @@ public class TerminalOperationChallenge {
         bk2.forEach(System.out::println);
 
          // Group books based on their category
+        System.out.println();
         Map<String,List<Book>> byCategory = books.stream()
 //                .collect(Collectors.groupingBy(bookStringFunction)); OR
         .collect(Collectors.groupingBy(Book::getCategory));
