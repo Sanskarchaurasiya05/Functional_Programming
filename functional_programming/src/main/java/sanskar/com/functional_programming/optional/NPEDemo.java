@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public class NPEDemo {
     public static void main(String[] args) {
-        String name = "sanskar" ;
+        String name = "sanska" ;
 //        traditional
        if(name!=null){
            System.out.println(name.length());
