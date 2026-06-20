@@ -1,5 +1,7 @@
 package sanskar.com.functional_programming.Rev;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -18,5 +20,13 @@ public class Rev1 {
                 .orElse(null);
 
         System.out.println(result);
+
+        List<Integer> list = Arrays.asList(1, 2, 2, 3, 4, 4, 5);
+
+        List<Integer> result1 = list.stream()
+                .distinct()
+                .collect(Collectors.toList());
+
+        System.out.println(result1);
     }
 }
